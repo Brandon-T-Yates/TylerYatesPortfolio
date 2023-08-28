@@ -495,7 +495,7 @@ strong {
 
 .skills {
   background: #0000005c;
-  background-image: url(../images/computer.jpg);
+  background-image: url(../assets/background/computer.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -954,7 +954,7 @@ strong {
     top: 7%;
     width: 20px;
     height: 20px;
-}
+  }
 }
 
 @media screen and (max-width: 360px) {
@@ -977,13 +977,13 @@ strong {
   .timeline:nth-child(2n) .timeline-content:after {
     left: 0px;
   }
-    .timeline-dot,
+  .timeline-dot,
   .timeline:nth-child(even) .timeline-dot {
     left: 0;
     top: 7%;
     width: 20px;
     height: 20px;
-}
+  }
 }
 
 @media screen and (max-width: 359px) {
