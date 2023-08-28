@@ -48,7 +48,7 @@
 })(window.jQuery);
 
 
-
+// Skills Scroll
 $(document).ready(function () {
   $(".customer-logos").slick({
     slidesToShow: 5,
