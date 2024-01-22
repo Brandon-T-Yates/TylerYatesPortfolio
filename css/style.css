@@ -384,6 +384,7 @@ strong {
   max-height: 635px;
   min-height: 475px;
   object-fit: cover;
+  object-position: top;
 }
 
 .team-thumb {
@@ -418,13 +419,19 @@ strong {
 /*---------------------------------------
   PORTFOLIO               
 -----------------------------------------*/
-.portfolio-thumb {
+.card {
   position: relative;
   overflow: hidden;
+  padding: 0;
+  box-shadow: 0px 1px 10px #88888866;
+  margin: 0 5px 25px 5px;
+}
+.card-title {
+  font-size: 18px;
 }
 
-.portfolio-info {
-  margin: 20px;
+.card-text {
+  font-size: 14px;
 }
 
 .portfolio-image {
@@ -439,7 +446,6 @@ strong {
   z-index: 1;
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   padding-bottom: 4px;
-  height: 100%;
 }
 
 .portfolio-image-hover::after {
@@ -482,16 +488,6 @@ strong {
   transform: scale(1.02);
 }
 
-.portfolio-two-column {
-  min-height: 199px;
-  margin-bottom: 16px;
-}
-
-.portfolio-two-column .portfolio-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 
 /*---------------------------------------
   SKILLS             
